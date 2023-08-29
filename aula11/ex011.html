@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>País</title>
+    <style>
+        div {
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Brasileiro ou Estrangeiro</h1>
+    Qual país você nasceu? 
+    <input type="text" name="país" id="país">
+    <input type="button" value="Verificar" onclick="analisar()">
+    <div id="res">
+
+    </div>
+
+    <script>
+
+        function analisar() {
+            var p = window.document.querySelector('input#país')
+            var res = window.document.querySelector('div#res')
+            var txtp = String(p.value)
+            if (txtp == 'Brasil') {
+                res.innerHTML = 'Você é brasileiro!'
+            } else {
+                res.innerHTML = 'Você é estrangeiro!'
+            }
+        }
+    </script>
+    </script>
+</body>
+</html>
