@@ -26,16 +26,6 @@ section {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.308);
 }
 
-div#res {
-    border-radius: 50%;
-}
-
-img {
-    max-width: 250px;
-    max-height: 300px;
-    padding: 10px;
-    border-radius: 50%;
-}
 
 footer {
     color: white;
